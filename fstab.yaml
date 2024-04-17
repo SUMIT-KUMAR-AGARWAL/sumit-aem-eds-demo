@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "http://localhost:4502/bin/franklin.delivery/SUMIT-KUMAR-AGARWAL/sumit-aem-eds-demo/main"
+    url: "https://author-p44761-e1309222.adobeaemcloud.com/bin/franklin.delivery/SUMIT-KUMAR-AGARWAL/sumit-aem-eds-demo/main"
     type: "markup"
     suffix: ".html"
