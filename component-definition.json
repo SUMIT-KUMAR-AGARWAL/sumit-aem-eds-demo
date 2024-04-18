@@ -107,7 +107,7 @@
           }
         },
         {
-          "title": "Cardss",
+          "title": "Cards",
           "id": "cards",
           "plugins": {
             "xwalk": {
