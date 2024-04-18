@@ -222,14 +222,14 @@
         "valueType": "string",
         "name": "href",
         "value": "",
-        "label": "Link"
+        "label": "Button Link"
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "text",
+        "name": "buttontext",
         "value": "",
-        "label": "Text"
+        "label": "Button Text"
       } 
     ]
   }
