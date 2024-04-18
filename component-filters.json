@@ -28,7 +28,7 @@
       "hero",
       "cards",
       "columns",
-	    "carousel"
+	  "carousel"
     ]
   },
   {
@@ -40,7 +40,7 @@
   {
     "id": "carousel",
     "components": [
-      "carouselitem"
+      "carousel-item"
     ]
   }
 ]
