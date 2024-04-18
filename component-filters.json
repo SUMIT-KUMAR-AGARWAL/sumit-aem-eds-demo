@@ -42,5 +42,14 @@
     "components": [
       "carouselitem"
     ]
+  },
+  {
+    "id": "carouselitem",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
+    ]
   }
 ]
