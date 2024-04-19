@@ -1,5 +1,5 @@
 
-import { fetchPlaceholders } from '../../scripts/aem.js';
+/*import { fetchPlaceholders } from '../../scripts/aem.js';
 
 function updateActiveSlide(slide) {
   const block = slide.closest('.carousel');
@@ -155,4 +155,4 @@ export default async function decorate(block) {
     if (!isSingleSlide) {
       bindEvents(block);
     }
-}
+}*/
