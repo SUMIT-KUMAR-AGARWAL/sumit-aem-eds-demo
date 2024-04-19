@@ -1,10 +1,6 @@
-.carousel-container{
-  display: block;
-  background: url(../../images/aboutBg.jpg) no-repeat 0 0 transparent;
-  padding: 96px 0;
-}
+
 /* Tiny Carousel */
-#slider {
+.carousel-container {
   display: inline-block;
   overflow: hidden;
   position: relative;
@@ -14,14 +10,14 @@
   
 }
 
-#slider .viewport {
+.carousel-container .viewport {
   height: 540px;
   width: 100%;
   overflow: hidden;
   position: relative;
 }
 
-#slider .overview {
+.carousel-container .overview {
   list-style: none;
   position: absolute;
   padding: 0;
