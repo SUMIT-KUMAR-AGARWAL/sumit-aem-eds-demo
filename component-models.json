@@ -237,6 +237,13 @@
     "id": "tabitem",
     "fields": [
       {
+        "component": "text",
+        "valueType": "string",
+        "name": "title",
+        "value": "",
+        "label": "Title"
+      },
+      {
         "component": "reference",
         "valueType": "string",
         "name": "image",
@@ -249,13 +256,6 @@
         "name": "imageAlt",
         "label": "Alt",
         "value": ""
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "title",
-        "value": "",
-        "label": "Title"
       },
       {
         "component": "richtext",
@@ -277,7 +277,7 @@
         "name": "buttontext",
         "value": "",
         "label": "Button Text"
-      } 
+      }
     ]
   }
 ]
