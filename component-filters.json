@@ -28,7 +28,8 @@
       "hero",
       "cards",
       "columns",
-	    "carousel"
+	    "carousel",
+      "tab"
     ]
   },
   {
@@ -41,6 +42,12 @@
     "id": "carousel",
     "components": [
       "carouselitem"
+    ]
+  },
+  {
+    "id": "tab",
+    "components": [
+      "tabitem"
     ]
   }
 ]
