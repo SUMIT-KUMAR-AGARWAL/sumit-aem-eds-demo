@@ -1,11 +1,15 @@
-
-.tabs-container{
-  padding: 48px 0 96px;   
+.tabs-container {
+  padding: 48px 0 96px;
   background: url(../../images/bg_topsession.jpg) right bottom no-repeat;
   background-size: cover;
   position: relative;
 }
-.tabs-wrapper{position: relative; z-index: 2;}
+
+.tabs-wrapper {
+  position: relative;
+  z-index: 2;
+}
+
 .tabs-container::after {
   content: "";
   display: block;
@@ -17,11 +21,15 @@
   z-index: 0;
   bottom: 0;
 }
-.tabs{display: flex;}
+
+.tabs {
+  display: flex;
+}
+
 .tabs .tabs-list {
   display: block;
   width: 30%;
-  
+
 }
 
 .tabs .tabs-list button {
@@ -35,25 +43,35 @@
   text-align: left;
   font-weight: normal;
   display: block;
-  font-family:'Noto Sans',sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   border-left: 2px solid #EDEDED;
   cursor: pointer;
 }
 
-.tabs-panel ul{ margin: 16px 0;    
-  padding-inline-start: 0;}
-.tabs-panel li{ list-style-position: inside; padding: 2px 0;}
+.tabs-panel ul {
+  margin: 16px 0;
+  padding-inline-start: 0;
+}
+
+.tabs-panel li {
+  list-style-position: inside;
+  padding: 2px 0;
+}
 
 
-.tabs .tabs-list button[aria-selected="true"] {color: #005496;
-  border-left: 2px solid #005496;}
+.tabs .tabs-list button[aria-selected="true"] {
+  color: #005496;
+  border-left: 2px solid #005496;
+}
 
 .tabs .tabs-list button[aria-selected="false"]:hover,
-.tabs .tabs-list button[aria-selected="false"]:focus {color: #005496;
-  border-left: 2px solid #005496;}
+.tabs .tabs-list button[aria-selected="false"]:focus {
+  color: #005496;
+  border-left: 2px solid #005496;
+}
 
-.tabs .tabs-panel {   
-  padding: 0 16px;    
+.tabs .tabs-panel {
+  padding: 0 16px;
   overflow: auto;
   width: 70%;
   display: flex;
@@ -70,8 +88,16 @@
   text-align: center;
   margin: 0 0 48px;
 }
-.tabs-panel h3{font-size: 22px;
-  color: #212529; width: 100%;}
-.tabs-panel div:last-child{ padding: 0 12px 0 72px;
+
+.tabs-panel h3 {
+  font-size: 22px;
+  color: #212529;
+  width: 100%;
+}
+
+.tabs-panel div:last-child {
+  padding: 0 12px 0 72px;
   display: flex;
-  align-items: center; flex-direction: column;}
+  align-items: center;
+  flex-direction: column;
+}
