@@ -156,3 +156,19 @@ export default async function decorate(block) {
       bindEvents(block);
     }
 }*/
+
+
+
+export default async function decorate(block) {
+  $(block).addClass("overview").parents('.carousel-wrapper').addClass("viewport");
+  const slider = "<div id='slider'></div>";
+  const sliderHtml = $(block).parents(".carousel-wrapper");
+  $(block).parents(".carousel-container").prepend(slider);
+  $("#slider").append(sliderHtml);
+  
+  $("#slider").tinycarousel({
+      interval: true 
+  });
+  
+
+}
