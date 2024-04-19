@@ -27,8 +27,9 @@
 
 
 
-.carousel.overview>div {
+.carousel.overview > div {
   height: 540px;
+  width: 100%;
   float: left;
 }
 
