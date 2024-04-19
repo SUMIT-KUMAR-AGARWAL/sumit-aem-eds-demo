@@ -25,12 +25,12 @@
   position: absolute;
   padding: 0;
   margin: 0;
-  width: 100%;
+  
   left: 0;
   top: 0;
 }
 
 
 
-.carousel.overview div{ width: 100%; height: 540px; float: left;}
+.carousel.overview > div{  height: 540px; float: left;}
 .carousel-wrapper picture img{width: 100%; height: 540px;}
