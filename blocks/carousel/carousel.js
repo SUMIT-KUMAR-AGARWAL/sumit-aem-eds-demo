@@ -1,7 +1,7 @@
 
-/*import { fetchPlaceholders } from '../../scripts/aem.js';
+import { fetchPlaceholders } from '../../scripts/aem.js';
 
-function updateActiveSlide(slide) {
+/*function updateActiveSlide(slide) {
   const block = slide.closest('.carousel');
   const slideIndex = parseInt(slide.dataset.slideIndex, 10);
   block.dataset.activeSlide = slideIndex;
