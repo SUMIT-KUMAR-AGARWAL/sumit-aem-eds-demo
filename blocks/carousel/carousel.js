@@ -76,11 +76,18 @@ function createSlide(row, slideIndex, carouselId) {
   slide.dataset.slideIndex = slideIndex;
   slide.setAttribute('id', `carousel-${carouselId}-slide-${slideIndex}`);
   slide.classList.add('carousel-slide');
+  const contentBlock = document.createElement('div');
+  contentBlock.classList.add("carousel-slide-content");
 
   row.querySelectorAll(':scope > div').forEach((column, colIdx) => {
-    column.classList.add(`carousel-slide-${colIdx === 0 ? 'image' : 'content'}`);
-    slide.append(column);
+    if(colIdx === 0){
+      column.classList.add('carousel-slide-image');
+      slide.append(column);
+    } else if(colIdx > 0){
+      contentBlock.append(column);
+    }    
   });
+  slide.append(contentBlock);
 
   const labeledBy = slide.querySelector('h1, h2, h3, h4, h5, h6');
   if (labeledBy) {
