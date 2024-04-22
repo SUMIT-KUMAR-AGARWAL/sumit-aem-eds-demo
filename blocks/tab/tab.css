@@ -1,16 +1,16 @@
-.tabs-container {
+.tab-container {
   padding: 48px 0 96px;
   background: url(../../images/bg_topsession.jpg) right bottom no-repeat;
   background-size: cover;
   position: relative;
 }
 
-.tabs-wrapper {
+.tab-wrapper {
   position: relative;
   z-index: 2;
 }
 
-.tabs-container::after {
+.tab-container::after {
   content: "";
   display: block;
   width: 100%;
@@ -22,17 +22,17 @@
   bottom: 0;
 }
 
-.tabs {
+.tab {
   display: flex;
 }
 
-.tabs .tabs-list {
+.tab .tab-list {
   display: block;
   width: 30%;
 
 }
 
-.tabs .tabs-list button {
+.tab .tab-list button {
   color: #16203a;
   font-size: 18px;
   padding: 20px 32px;
@@ -48,29 +48,29 @@
   cursor: pointer;
 }
 
-.tabs-panel ul {
+.tab-panel ul {
   margin: 16px 0;
   padding-inline-start: 0;
 }
 
-.tabs-panel li {
+.tab-panel li {
   list-style-position: inside;
   padding: 2px 0;
 }
 
 
-.tabs .tabs-list button[aria-selected="true"] {
+.tab .tab-list button[aria-selected="true"] {
   color: #005496;
   border-left: 2px solid #005496;
 }
 
-.tabs .tabs-list button[aria-selected="false"]:hover,
-.tabs .tabs-list button[aria-selected="false"]:focus {
+.tab .tab-list button[aria-selected="false"]:hover,
+.tab .tab-list button[aria-selected="false"]:focus {
   color: #005496;
   border-left: 2px solid #005496;
 }
 
-.tabs .tabs-panel {
+.tab .tab-panel {
   padding: 0 16px;
   overflow: auto;
   width: 70%;
@@ -78,24 +78,24 @@
   align-items: center;
 }
 
-.tabs .tabs-panel[aria-hidden="true"] {
+.tab .tab-panel[aria-hidden="true"] {
   display: none;
 }
 
-.tabs-container h2 {
+.tab-container h2 {
   font-size: 32px;
   color: #212529;
   text-align: center;
   margin: 0 0 48px;
 }
 
-.tabs-panel h3 {
+.tab-panel h3 {
   font-size: 22px;
   color: #212529;
   width: 100%;
 }
 
-.tabs-panel div:last-child {
+.tab-panel div:last-child {
   padding: 0 12px 0 72px;
   display: flex;
   align-items: center;
