@@ -1,0 +1,101 @@
+.slidercards-container {
+
+  background: conic-gradient(from 90deg at 50% 50%, #3c9fc1, #63bbff, #5066bb, #7d83ce, #5ac1e4, #3c9fc1);
+  padding: 64px 0 96px;
+  color: #fff;
+}
+
+.slidercards-container h2 {
+  color: #fff;
+  margin-top: 0;
+}
+
+/* Tiny Carousel */
+#slidercards-slider {
+  overflow: hidden;
+  position: relative;
+  height: 440px;
+  max-width: 96%;
+  margin-top: 48px;
+}
+
+#slidercards-slider .viewport {
+  height: 440px;
+  overflow: hidden;
+  position: relative;
+}
+
+#slidercards-slider .buttons {
+  background: #C01313;
+  border-radius: 35px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 35px;
+  height: 35px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  line-height: 35px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+#slidercards-slider .next {
+  right: 0;
+  left: auto;
+  top: 50%;
+}
+
+#slidercards-slider .buttons:hover {
+  color: #C01313;
+  background: #fff;
+}
+
+#slidercards-slider .disable {
+  visibility: hidden;
+}
+
+#slidercards-slider .overview {
+  list-style: none;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  left: 0;
+  top: 0;
+}
+
+.slidercards.overview > div {
+  width: 321px;
+  height: 440px;
+  float: left;
+  margin: 0 22px;
+  position: relative;
+}
+
+.slidercards-wrapper picture img {
+  width: 321px;
+  height: 440px;
+}
+
+.slidercards.overview > div::after {
+  content: "";
+  display: block;
+  width: 321px;
+  height: 440px;
+  background: url(../../images/mask_bg.svg) no-repeat bottom left transparent;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+}
+
+.slidercards.overview>div>div:first-child {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  text-align: center;
+  padding: 0 24px 60px 24px;
+  font-size: 21px;
+}

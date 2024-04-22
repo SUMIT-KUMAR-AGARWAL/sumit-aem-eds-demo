@@ -75,6 +75,7 @@ function createSlide(row, slideIndex, carouselId) {
   slide.dataset.slideIndex = slideIndex;
   slide.setAttribute('id', `carousel-${carouselId}-slide-${slideIndex}`);
   slide.classList.add('carousel-slide');
+  // For Establishing the Relation between AEM Component & Page HTML
   slide.setAttribute('data-aue-resource', row.getAttribute('data-aue-resource'));
   slide.setAttribute('data-aue-type', row.getAttribute('data-aue-type'));
   slide.setAttribute('data-aue-model', row.getAttribute('data-aue-model'));

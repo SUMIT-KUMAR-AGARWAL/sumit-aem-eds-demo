@@ -29,7 +29,8 @@
       "cards",
       "columns",
 	    "carousel",
-      "tab"
+      "tab",
+      "slidercards"
     ]
   },
   {
@@ -48,6 +49,12 @@
     "id": "tab",
     "components": [
       "tabitem"
+    ]
+  },
+  {
+    "id": "slidercards",
+    "components": [
+      "slidercard"
     ]
   }
 ]
