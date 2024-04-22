@@ -76,6 +76,10 @@ function createSlide(row, slideIndex, carouselId) {
   slide.dataset.slideIndex = slideIndex;
   slide.setAttribute('id', `carousel-${carouselId}-slide-${slideIndex}`);
   slide.classList.add('carousel-slide');
+  slide.setAttribute('data-aue-resource', row.dataset.aue-resource);
+  slide.setAttribute('data-aue-type', row.dataset.aue-type);
+  slide.setAttribute('data-aue-model', row.dataset.aue-model);
+  slide.setAttribute('data-aue-label', row.dataset.aue-label);
   const contentBlock = document.createElement('div');
   contentBlock.classList.add("carousel-slide-content");
 
